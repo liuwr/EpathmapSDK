@@ -1,0 +1,19 @@
+PODS:
+  - EpathmapSDK (0.1.0)
+  - WechatOpenSDK (1.8.0)
+
+DEPENDENCIES:
+  - EpathmapSDK (from `../`)
+  - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  EpathmapSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EpathmapSDK: 688000e33b89b3308e00d942c0e8b205b8f88679
+  WechatOpenSDK: 0ee07a8d492299d3e47372a33da5af26524a7576
+
+PODFILE CHECKSUM: 37e8d79142865c0233c5910dc14832b2ff576c2a
+
+COCOAPODS: 1.4.0
