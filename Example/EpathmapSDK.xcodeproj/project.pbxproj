@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5570FD6353BCAFB4DF69ED1F /* Pods_EpathmapSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D568A026A57659BD50A672F3 /* Pods_EpathmapSDK_Example.framework */; };
 		5700EF4120316C7200F22980 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4020316C7200F22980 /* SystemConfiguration.framework */; };
 		5700EF4320316C7B00F22980 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4220316C7B00F22980 /* Security.framework */; };
 		5700EF4520316C8300F22980 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4420316C8200F22980 /* QuartzCore.framework */; };
@@ -38,7 +39,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B6232E0E09E9FF71352527D6 /* libPods-EpathmapSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 836BDC3526DDD3AE0F8E0852 /* libPods-EpathmapSDK_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,11 +92,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		619387154D46BCBEAE6C2E1B /* Pods-EpathmapSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpathmapSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpathmapSDK_Example/Pods-EpathmapSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		836BDC3526DDD3AE0F8E0852 /* libPods-EpathmapSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpathmapSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A19189E743B7DAE934867426 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3C347846A649859FE3BDBDD /* EpathmapSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EpathmapSDK.podspec; path = ../EpathmapSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA72E2230ABE2C4176900B8F /* Pods-EpathmapSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpathmapSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpathmapSDK_Example/Pods-EpathmapSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D568A026A57659BD50A672F3 /* Pods_EpathmapSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpathmapSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B6232E0E09E9FF71352527D6 /* libPods-EpathmapSDK_Example.a in Frameworks */,
+				5570FD6353BCAFB4DF69ED1F /* Pods_EpathmapSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +194,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				2C7348202F5FD633409C99B1 /* Pods_EpathmapSDK_Tests.framework */,
-				836BDC3526DDD3AE0F8E0852 /* libPods-EpathmapSDK_Example.a */,
+				D568A026A57659BD50A672F3 /* Pods_EpathmapSDK_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -564,6 +564,7 @@
 			baseConfigurationReference = CA72E2230ABE2C4176900B8F /* Pods-EpathmapSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -583,6 +584,7 @@
 			baseConfigurationReference = 619387154D46BCBEAE6C2E1B /* Pods-EpathmapSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

@@ -7,43 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BBBC2A1FA444BB96C2767E1A34B53CF /* Pods-EpathmapSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD6BEE1971DF6FD01A9D7CA2CF3AD7F /* Pods-EpathmapSDK_Example-dummy.m */; };
-		B0571742361E6B1D7F7BAC01D563CBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B1D91676C78485E5B11C88C4855B038 /* Pods-EpathmapSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566CDDDAE8E9B3F7CDD1B87BA2EDCB40 /* Pods-EpathmapSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2D312EE63CC0233EC2FAC871721314 /* Pods-EpathmapSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02017C7C560CC277020F1CC940289157 /* Pods-EpathmapSDK_Example-dummy.m */; };
+		DC2B4C4C06568D2EC63AAFEE7333B27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		090DB18A350121DE548F69D117705F1A /* Pods-EpathmapSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpathmapSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		291C0BF6308CEE096EAC02F6BC5E5E47 /* libPods-EpathmapSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EpathmapSDK_Example.a"; path = "libPods-EpathmapSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02017C7C560CC277020F1CC940289157 /* Pods-EpathmapSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpathmapSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		027B625D8115F7D62DBE711689AD846F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109EA624AE090DBDEACEFB5CEED42429 /* Pods-EpathmapSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpathmapSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		326AE928074840EC539F2607B786AA78 /* Pods-EpathmapSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EpathmapSDK_Example.modulemap"; sourceTree = "<group>"; };
+		3C54F7429B86D0F8ACB1D63C505E38B8 /* Pods-EpathmapSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpathmapSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		566CDDDAE8E9B3F7CDD1B87BA2EDCB40 /* Pods-EpathmapSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EpathmapSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		5E2A80C7A7E967C2062C4F00BA853410 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.0/WXApi.h; sourceTree = "<group>"; };
-		627C14A8D4325377F94EDB4585FC8163 /* Pods-EpathmapSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpathmapSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76930D15A52BAAC32228E9E6D809FE4A /* EpathmapSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EpathmapSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		80484C1D77472B1860C54AFBC045E440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76930D15A52BAAC32228E9E6D809FE4A /* EpathmapSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = EpathmapSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		78158E744DC27F6B0B3953F8BFF1CD6B /* Pods-EpathmapSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpathmapSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		7E3493F7E91CA44BEC344DE995C990C3 /* Pods-EpathmapSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpathmapSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80484C1D77472B1860C54AFBC045E440 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8686777B42CF9A6FA86A32CD4896C917 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.0/libWeChatSDK.a; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8DE7C080CABB44FECC84ABF21C71DA8 /* Pods-EpathmapSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpathmapSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AF0F6791A1A8922FCBCC3EAD7163FD2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D15F6F249A25D110EA9D107F54548685 /* Pods-EpathmapSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpathmapSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D56A8F75F2B93FB06A0BDE53DBE6EA08 /* Pods-EpathmapSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpathmapSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF0F6791A1A8922FCBCC3EAD7163FD2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1F6613BE45432705DABBEAB8F5089B0 /* Pods_EpathmapSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpathmapSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39304534064F4FCC21630E6DA790AB2 /* Pods-EpathmapSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpathmapSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E6C66DCC75F8E706730D2718C148A3E3 /* Pods-EpathmapSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpathmapSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E955F917D1D1BF667D99D245269A2F89 /* EpathmapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EpathmapSDK.framework; path = EpathmapSDK/EpathmapSDK.framework; sourceTree = "<group>"; };
-		EDD6BEE1971DF6FD01A9D7CA2CF3AD7F /* Pods-EpathmapSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpathmapSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		EF00AA91603D0AA526E394D20BAE889C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.0/WechatAuthSDK.h; sourceTree = "<group>"; };
-		F63810EE3D6490390B17A61BD7FA535D /* Pods-EpathmapSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpathmapSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F7698636CD5190D2251ED0D447D5299C /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.0/WXApiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFBCE12E6039FB311DBFC76A57FEF2AB /* Frameworks */ = {
+		F9E722FBE0A8AEC63931CDB477D355D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0571742361E6B1D7F7BAC01D563CBC5 /* Foundation.framework in Frameworks */,
+				DC2B4C4C06568D2EC63AAFEE7333B27F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016506CC907E73DF2E69F0565083D084 /* Pods-EpathmapSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				027B625D8115F7D62DBE711689AD846F /* Info.plist */,
+				326AE928074840EC539F2607B786AA78 /* Pods-EpathmapSDK_Example.modulemap */,
+				3C54F7429B86D0F8ACB1D63C505E38B8 /* Pods-EpathmapSDK_Example-acknowledgements.markdown */,
+				109EA624AE090DBDEACEFB5CEED42429 /* Pods-EpathmapSDK_Example-acknowledgements.plist */,
+				02017C7C560CC277020F1CC940289157 /* Pods-EpathmapSDK_Example-dummy.m */,
+				E39304534064F4FCC21630E6DA790AB2 /* Pods-EpathmapSDK_Example-frameworks.sh */,
+				78158E744DC27F6B0B3953F8BFF1CD6B /* Pods-EpathmapSDK_Example-resources.sh */,
+				566CDDDAE8E9B3F7CDD1B87BA2EDCB40 /* Pods-EpathmapSDK_Example-umbrella.h */,
+				7E3493F7E91CA44BEC344DE995C990C3 /* Pods-EpathmapSDK_Example.debug.xcconfig */,
+				E6C66DCC75F8E706730D2718C148A3E3 /* Pods-EpathmapSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-EpathmapSDK_Example";
+			path = "Target Support Files/Pods-EpathmapSDK_Example";
+			sourceTree = "<group>";
+		};
 		1260FF086D0AD065B12054BDA479C059 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +76,12 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		32CF67ED4C7D4984ECED2E8006D9525F /* Products */ = {
+		28237FA60BD02655F2A158F0597F978B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				291C0BF6308CEE096EAC02F6BC5E5E47 /* libPods-EpathmapSDK_Example.a */,
+				016506CC907E73DF2E69F0565083D084 /* Pods-EpathmapSDK_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3632DB096AB6A99BC61EFFAABFEDABF5 /* EpathmapSDK */ = {
@@ -72,12 +94,12 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		422003EB79FFFC07AA8F9C85AC3687D5 /* Targets Support Files */ = {
+		40E338862C0FD2BCB129791C1092E221 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F9E422F402EBE1713186D17DD16B11C /* Pods-EpathmapSDK_Example */,
+				E1F6613BE45432705DABBEAB8F5089B0 /* Pods_EpathmapSDK_Example.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		431325CAE6B901A3E3FD7F5EDF193C34 /* Development Pods */ = {
@@ -86,21 +108,6 @@
 				3632DB096AB6A99BC61EFFAABFEDABF5 /* EpathmapSDK */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4F9E422F402EBE1713186D17DD16B11C /* Pods-EpathmapSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				F63810EE3D6490390B17A61BD7FA535D /* Pods-EpathmapSDK_Example-acknowledgements.markdown */,
-				D56A8F75F2B93FB06A0BDE53DBE6EA08 /* Pods-EpathmapSDK_Example-acknowledgements.plist */,
-				EDD6BEE1971DF6FD01A9D7CA2CF3AD7F /* Pods-EpathmapSDK_Example-dummy.m */,
-				A8DE7C080CABB44FECC84ABF21C71DA8 /* Pods-EpathmapSDK_Example-frameworks.sh */,
-				090DB18A350121DE548F69D117705F1A /* Pods-EpathmapSDK_Example-resources.sh */,
-				627C14A8D4325377F94EDB4585FC8163 /* Pods-EpathmapSDK_Example.debug.xcconfig */,
-				D15F6F249A25D110EA9D107F54548685 /* Pods-EpathmapSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-EpathmapSDK_Example";
-			path = "Target Support Files/Pods-EpathmapSDK_Example";
 			sourceTree = "<group>";
 		};
 		5BFB68E1D073CFCCFE34FF89DEF9A02D /* Frameworks */ = {
@@ -119,7 +126,6 @@
 				F7698636CD5190D2251ED0D447D5299C /* WXApiObject.h */,
 				8409A876C786F4C6FC4C13AA960AA976 /* Frameworks */,
 			);
-			name = WechatOpenSDK;
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
@@ -138,8 +144,8 @@
 				431325CAE6B901A3E3FD7F5EDF193C34 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7ADA45F435BB210C822629C0D9B54295 /* Pods */,
-				32CF67ED4C7D4984ECED2E8006D9525F /* Products */,
-				422003EB79FFFC07AA8F9C85AC3687D5 /* Targets Support Files */,
+				40E338862C0FD2BCB129791C1092E221 /* Products */,
+				28237FA60BD02655F2A158F0597F978B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,13 +175,25 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A679401540F9498B3EF7990C18B65919 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1D91676C78485E5B11C88C4855B038 /* Pods-EpathmapSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		14335F201A72B58EA2DF999455124928 /* Pods-EpathmapSDK_Example */ = {
+		237DAA3C9FEC2B29BB408AC7EB3313B9 /* Pods-EpathmapSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF5214771A309259396CA76C8B4B8C2 /* Build configuration list for PBXNativeTarget "Pods-EpathmapSDK_Example" */;
+			buildConfigurationList = 9A87A607963ED55AAD1ED21341081046 /* Build configuration list for PBXNativeTarget "Pods-EpathmapSDK_Example" */;
 			buildPhases = (
-				32353434731D077A499CBB83C6736130 /* Sources */,
-				CFBCE12E6039FB311DBFC76A57FEF2AB /* Frameworks */,
+				6D4766C19E73B0C85C72964F478BE88F /* Sources */,
+				F9E722FBE0A8AEC63931CDB477D355D9 /* Frameworks */,
+				A679401540F9498B3EF7990C18B65919 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -183,8 +201,8 @@
 			);
 			name = "Pods-EpathmapSDK_Example";
 			productName = "Pods-EpathmapSDK_Example";
-			productReference = 291C0BF6308CEE096EAC02F6BC5E5E47 /* libPods-EpathmapSDK_Example.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = E1F6613BE45432705DABBEAB8F5089B0 /* Pods_EpathmapSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,69 +221,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 32CF67ED4C7D4984ECED2E8006D9525F /* Products */;
+			productRefGroup = 40E338862C0FD2BCB129791C1092E221 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14335F201A72B58EA2DF999455124928 /* Pods-EpathmapSDK_Example */,
+				237DAA3C9FEC2B29BB408AC7EB3313B9 /* Pods-EpathmapSDK_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32353434731D077A499CBB83C6736130 /* Sources */ = {
+		6D4766C19E73B0C85C72964F478BE88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BBBC2A1FA444BB96C2767E1A34B53CF /* Pods-EpathmapSDK_Example-dummy.m in Sources */,
+				8E2D312EE63CC0233EC2FAC871721314 /* Pods-EpathmapSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		60745A11EFA7D977F1AC2BDB401FFF2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 627C14A8D4325377F94EDB4585FC8163 /* Pods-EpathmapSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		78F4548C978317BB6D74ACCC49CF9236 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D15F6F249A25D110EA9D107F54548685 /* Pods-EpathmapSDK_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,7 +305,7 @@
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -386,23 +363,90 @@
 			};
 			name = Release;
 		};
+		8F34DE26C342F4EE7DE057F78FF45FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C66DCC75F8E706730D2718C148A3E3 /* Pods-EpathmapSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EpathmapSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EpathmapSDK_Example/Pods-EpathmapSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EpathmapSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB9F3197F9F22A946324FE966E6701EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3493F7E91CA44BEC344DE995C990C3 /* Pods-EpathmapSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EpathmapSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EpathmapSDK_Example/Pods-EpathmapSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EpathmapSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BF5214771A309259396CA76C8B4B8C2 /* Build configuration list for PBXNativeTarget "Pods-EpathmapSDK_Example" */ = {
+		9A87A607963ED55AAD1ED21341081046 /* Build configuration list for PBXNativeTarget "Pods-EpathmapSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60745A11EFA7D977F1AC2BDB401FFF2A /* Debug */,
-				78F4548C978317BB6D74ACCC49CF9236 /* Release */,
+				FB9F3197F9F22A946324FE966E6701EA /* Debug */,
+				8F34DE26C342F4EE7DE057F78FF45FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

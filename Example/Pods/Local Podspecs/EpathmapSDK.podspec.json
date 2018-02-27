@@ -19,9 +19,7 @@
     "ios": "8.0"
   },
   "resources": "EpathmapSDK/EpathmapSDK.xcassets",
-  "ios": {
-    "vendored_frameworks": "EpathmapSDK/EpathmapSDK.framework"
-  },
+  "vendored_frameworks": "EpathmapSDK/EpathmapSDK.framework",
   "frameworks": [
     "UIKit",
     "Foundation",

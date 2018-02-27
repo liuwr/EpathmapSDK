@@ -24,15 +24,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-#  s.source_files = 'EpathmapSDK/EpathmapSDK/Classes/*.{h,m,}'
-#  s.source_files = 'EpathmapSDK/EpathmapSDK/Classes/**/*.{c,h,hh,m,mm,cpp,a,pch}'
+#  s.source_files = 'Pod/EpathmapSDK/Classes/*.{h,m,}'
 
   # s.resource_bundles = {
   #   'EpathmapSDK' => ['EpathmapSDK/Assets/*.png']
   # }
-  #s.resources = 'EpathmapSDK/EpathmapSDK.xcassets'
+  #s.resources = "EpathmapSDK/EpathmapSDK.xcassets"
   #s.public_header_files = 'Pod/Classes/**/*.h'
-    s.ios.vendored_frameworks = 'EpathmapSDK/EpathmapSDK.framework'
+  #s.vendored_frameworks = 'EpathmapSDK/EpathmapSDK.framework'
   # s.frameworks = 'UIKit', 'MapKit'
   s.frameworks = "UIKit", "Foundation", "QuartzCore", "SystemConfiguration", "CoreGraphics", "CoreLocation", "CoreTelephony", "AudioToolbox", "AVFoundation", "AddressBook"
   s.weak_framework = "Contacts"
