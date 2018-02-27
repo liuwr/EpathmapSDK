@@ -7,12 +7,14 @@
 //
 
 #import "GFAppDelegate.h"
-
+#import "EpathApiKey.h"
+#import <EpathmapSDK/EpathmapSDK.h>
 @implementation GFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //初始化EpathmapSDK  APIKey
+    [EpathmapServices setAppKey:APIKey]; 
     return YES;
 }
 

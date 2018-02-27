@@ -7,6 +7,8 @@
 //
 
 #import "GFViewController.h"
+#import "EpathApiKey.h"
+#import <EpathmapSDK/EpathmapSDK.h>
 
 @interface GFViewController ()
 
@@ -17,9 +19,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = [UIColor redColor];
+    btn.frame = CGRectMake(15, 150, [UIScreen mainScreen].bounds.size.width-30, 50);
+    [btn setTitle:@"前往“绿地之窗”>>" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
-
+-(void)btnClick
+{
+    EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:MapId];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
+//    [self.navigationController pushViewController:vc animated:YES];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

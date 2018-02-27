@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface GFViewController : UIViewController
+@interface GFViewController : UINavigationController
 
 @end
