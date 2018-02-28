@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'EpathmapSDK' => ['EpathmapSDK/Assets/*.png']
   # }
-  s.resources = "EpathmapSDK/EpathmapSDK.xcassets"
+  s.resources = "Pod/EpathmapSDK.xcassets"
   #s.public_header_files = 'Pod/Classes/**/*.h'
-  s.vendored_frameworks = "EpathmapSDK/EpathmapSDK.framework"
+  s.vendored_frameworks = "Pod/EpathmapSDK.framework"
   # s.frameworks = 'UIKit', 'MapKit'
   s.frameworks = "UIKit", "Foundation", "QuartzCore", "SystemConfiguration", "CoreGraphics", "CoreLocation", "CoreTelephony", "AudioToolbox", "AVFoundation", "AddressBook"
   s.weak_framework = "Contacts"

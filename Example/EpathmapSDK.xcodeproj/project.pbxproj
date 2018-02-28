@@ -8,26 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5570FD6353BCAFB4DF69ED1F /* Pods_EpathmapSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D568A026A57659BD50A672F3 /* Pods_EpathmapSDK_Example.framework */; };
-		5700EF4120316C7200F22980 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4020316C7200F22980 /* SystemConfiguration.framework */; };
-		5700EF4320316C7B00F22980 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4220316C7B00F22980 /* Security.framework */; };
-		5700EF4520316C8300F22980 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4420316C8200F22980 /* QuartzCore.framework */; };
-		5700EF4720316C8A00F22980 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4620316C8A00F22980 /* MessageUI.framework */; };
-		5700EF4920316C9800F22980 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4820316C9800F22980 /* CoreTelephony.framework */; };
-		5700EF4B20316CA000F22980 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4A20316CA000F22980 /* CoreLocation.framework */; };
-		5700EF4D20316CA900F22980 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4C20316CA800F22980 /* Contacts.framework */; };
-		5700EF4F20316CB100F22980 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF4E20316CB000F22980 /* AVFoundation.framework */; };
-		5700EF5120316CBA00F22980 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5020316CBA00F22980 /* AudioToolbox.framework */; };
-		5700EF5320316CC000F22980 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5220316CC000F22980 /* AddressBook.framework */; };
-		5700EF5520316CD200F22980 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5420316CD200F22980 /* libz.1.2.5.tbd */; };
-		5700EF5720316CD900F22980 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5620316CD900F22980 /* libz.tbd */; };
-		5700EF5920316CE900F22980 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5820316CE900F22980 /* libxml2.tbd */; };
-		5700EF5B20316CF900F22980 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5A20316CF900F22980 /* libsqlite3.tbd */; };
-		5700EF5D20316D0200F22980 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5C20316D0200F22980 /* libiconv.tbd */; };
-		5700EF5F20316D0E00F22980 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700EF5E20316D0E00F22980 /* libc++.tbd */; };
-		57243FA3204555970026EDF9 /* EpathmapSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57243FA2204555970026EDF9 /* EpathmapSDK.xcassets */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GFAppDelegate.m */; };
@@ -72,7 +52,6 @@
 		5700EF5C20316D0200F22980 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		5700EF5E20316D0E00F22980 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		57243F9B20450A550026EDF9 /* EpathApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpathApiKey.h; sourceTree = "<group>"; };
-		57243FA2204555970026EDF9 /* EpathmapSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = EpathmapSDK.xcassets; path = ../../EpathmapSDK.xcassets; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EpathmapSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpathmapSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,25 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5700EF5F20316D0E00F22980 /* libc++.tbd in Frameworks */,
-				5700EF5D20316D0200F22980 /* libiconv.tbd in Frameworks */,
-				5700EF5B20316CF900F22980 /* libsqlite3.tbd in Frameworks */,
-				5700EF5920316CE900F22980 /* libxml2.tbd in Frameworks */,
-				5700EF5720316CD900F22980 /* libz.tbd in Frameworks */,
-				5700EF5520316CD200F22980 /* libz.1.2.5.tbd in Frameworks */,
-				5700EF5320316CC000F22980 /* AddressBook.framework in Frameworks */,
-				5700EF5120316CBA00F22980 /* AudioToolbox.framework in Frameworks */,
-				5700EF4F20316CB100F22980 /* AVFoundation.framework in Frameworks */,
-				5700EF4D20316CA900F22980 /* Contacts.framework in Frameworks */,
-				5700EF4B20316CA000F22980 /* CoreLocation.framework in Frameworks */,
-				5700EF4920316C9800F22980 /* CoreTelephony.framework in Frameworks */,
-				5700EF4720316C8A00F22980 /* MessageUI.framework in Frameworks */,
-				5700EF4520316C8300F22980 /* QuartzCore.framework in Frameworks */,
-				5700EF4320316C7B00F22980 /* Security.framework in Frameworks */,
-				5700EF4120316C7200F22980 /* SystemConfiguration.framework in Frameworks */,
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				5570FD6353BCAFB4DF69ED1F /* Pods_EpathmapSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +172,6 @@
 				57243F9B20450A550026EDF9 /* EpathApiKey.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
-				57243FA2204555970026EDF9 /* EpathmapSDK.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for EpathmapSDK";
@@ -339,7 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57243FA3204555970026EDF9 /* EpathmapSDK.xcassets in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -382,9 +340,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EpathmapSDK_Example/Pods-EpathmapSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../EpathmapSDK.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
