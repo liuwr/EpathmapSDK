@@ -16,22 +16,25 @@
 		001D0AACEF98B8ED80D7A94DFF0C0B27 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		02017C7C560CC277020F1CC940289157 /* Pods-EpathmapSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpathmapSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		027B625D8115F7D62DBE711689AD846F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043A651654B5E134CFE0EA79756C7F50 /* EpathmapSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EpathmapSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		109EA624AE090DBDEACEFB5CEED42429 /* Pods-EpathmapSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpathmapSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		237E2FA0F1EAFA46603DD62D7CECE0DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		326AE928074840EC539F2607B786AA78 /* Pods-EpathmapSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EpathmapSDK_Example.modulemap"; sourceTree = "<group>"; };
 		3C54F7429B86D0F8ACB1D63C505E38B8 /* Pods-EpathmapSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpathmapSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48A9178FAB4C5789990B172CE27DF1E3 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.1/libWeChatSDK.a; sourceTree = "<group>"; };
 		566CDDDAE8E9B3F7CDD1B87BA2EDCB40 /* Pods-EpathmapSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EpathmapSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		5729B6AC2046569700780DDB /* EpathmapSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = EpathmapSDK.xcassets; sourceTree = "<group>"; };
 		5D5264A94F673BE0AD5E593F72B6CADC /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.1/WXApiObject.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78158E744DC27F6B0B3953F8BFF1CD6B /* Pods-EpathmapSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpathmapSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		7E3493F7E91CA44BEC344DE995C990C3 /* Pods-EpathmapSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpathmapSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1057B0B8A17B09DD6D33BEA2CB5FB62 /* EpathmapSDK.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = EpathmapSDK.xcassets; sourceTree = "<group>"; };
+		B16BCEDF1B014907F6C7AEF62EFB628E /* EpathmapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EpathmapSDK.framework; path = EpathmapSDK/EpathmapSDK.framework; sourceTree = "<group>"; };
 		B4DA49E1A80664F11B4B09372751D134 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.1/WXApi.h; sourceTree = "<group>"; };
-		E1F6613BE45432705DABBEAB8F5089B0 /* Pods_EpathmapSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpathmapSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C931D025FD957FD38D5A409B6161FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1F6613BE45432705DABBEAB8F5089B0 /* Pods_EpathmapSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EpathmapSDK_Example.framework; path = "Pods-EpathmapSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39304534064F4FCC21630E6DA790AB2 /* Pods-EpathmapSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpathmapSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E6C66DCC75F8E706730D2718C148A3E3 /* Pods-EpathmapSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpathmapSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E955F917D1D1BF667D99D245269A2F89 /* EpathmapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EpathmapSDK.framework; path = EpathmapSDK/EpathmapSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,16 +83,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3632DB096AB6A99BC61EFFAABFEDABF5 /* EpathmapSDK */ = {
-			isa = PBXGroup;
-			children = (
-				5BFB68E1D073CFCCFE34FF89DEF9A02D /* Frameworks */,
-				5729B6AB2046568400780DDB /* Resources */,
-			);
-			name = EpathmapSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		40E338862C0FD2BCB129791C1092E221 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,28 +91,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		431325CAE6B901A3E3FD7F5EDF193C34 /* Development Pods */ = {
+		5CAB697BD6709889C450C176A2C59A41 /* EpathmapSDK */ = {
 			isa = PBXGroup;
 			children = (
-				3632DB096AB6A99BC61EFFAABFEDABF5 /* EpathmapSDK */,
+				F047A7F140D6D77F9874288F1661FCCB /* Frameworks */,
+				718F90D6D514ECC7FFDACC6617914BD8 /* Pod */,
+				D9A54C566BF09D2D5A931E126ABF14AE /* Resources */,
 			);
-			name = "Development Pods";
+			name = EpathmapSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		5729B6AB2046568400780DDB /* Resources */ = {
+		718F90D6D514ECC7FFDACC6617914BD8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5729B6AC2046569700780DDB /* EpathmapSDK.xcassets */,
+				043A651654B5E134CFE0EA79756C7F50 /* EpathmapSDK.podspec */,
+				E0C931D025FD957FD38D5A409B6161FD /* LICENSE */,
+				237E2FA0F1EAFA46603DD62D7CECE0DD /* README.md */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5BFB68E1D073CFCCFE34FF89DEF9A02D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E955F917D1D1BF667D99D245269A2F89 /* EpathmapSDK.framework */,
-			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7ADA45F435BB210C822629C0D9B54295 /* Pods */ = {
@@ -134,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				431325CAE6B901A3E3FD7F5EDF193C34 /* Development Pods */,
+				DC3CB4712F51B3E32CBBFBEA9AC44A09 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7ADA45F435BB210C822629C0D9B54295 /* Pods */,
 				40E338862C0FD2BCB129791C1092E221 /* Products */,
@@ -150,6 +140,7 @@
 				5D5264A94F673BE0AD5E593F72B6CADC /* WXApiObject.h */,
 				137BE6A90D38918C6D319F1F250C24CA /* Frameworks */,
 			);
+			name = WechatOpenSDK;
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
@@ -167,6 +158,30 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9A54C566BF09D2D5A931E126ABF14AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1057B0B8A17B09DD6D33BEA2CB5FB62 /* EpathmapSDK.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC3CB4712F51B3E32CBBFBEA9AC44A09 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CAB697BD6709889C450C176A2C59A41 /* EpathmapSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F047A7F140D6D77F9874288F1661FCCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16BCEDF1B014907F6C7AEF62EFB628E /* EpathmapSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
