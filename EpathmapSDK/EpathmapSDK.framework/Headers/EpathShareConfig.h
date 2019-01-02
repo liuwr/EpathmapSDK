@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, IpsShareType) {
-    IpsShareTypeUnkown,
-    IpsShareTypeWeChat, //微信
-    IpsShareTypeQQ,     //QQ
-    IpsShareTypeSMS,    //短信
-    IpsShareTypeCopy,   //复制
+typedef NS_ENUM(NSUInteger, EpathShareType) {
+    EpathShareTypeUnkown,
+    EpathShareTypeWeChat, //微信
+    EpathShareTypeQQ,     //QQ
+    EpathShareTypeSMS,    //短信
+    EpathShareTypeCopy,   //复制
 };
 
 @interface EpathShareConfig : NSObject
@@ -27,6 +27,6 @@ typedef NS_ENUM(NSUInteger, IpsShareType) {
 
 + (void)showSharePlatforms:(NSArray *)showPlatforms;
 
-+ (void)sendShare:(IpsShareType)type title:(NSString *)title desc:(NSString *)desc url:(NSString *)url;
++ (void)sendShare:(EpathShareType)type title:(NSString *)title desc:(NSString *)desc url:(NSString *)url;
 
 @end

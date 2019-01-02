@@ -8,40 +8,29 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EpathmapSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '释途室内地图导航SDK'
 
-
   s.description      = <<-DESC
-室内导航 EpathmapSDK Indoor navigation map ibeacon buildings
+释途室内导航 EpathmapSDK Indoor navigation map ibeacon buildings
                        DESC
 
-  s.homepage         = 'https://github.com/2319484461/EpathmapSDK'
+  s.homepage         = 'https://github.com/liuwr/EpathmapSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2319484461@qq.com' => '2319484461@qq.com' }
-  s.source           = { :git => 'https://github.com/2319484461/EpathmapSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuwr/EpathmapSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-#  s.source_files = 'Pod/EpathmapSDK/Classes/*.{h,m,}'
+  s.source_files = 'epathmap/**/*'
 
-  # s.resource_bundles = {
-  #   'EpathmapSDK' => ['EpathmapSDK/Assets/*.png']
-  # }
-  s.resources = "EpathmapSDK.xcassets"
-  #s.public_header_files = 'Pod/Classes/**/*.h'
+  s.resources = "EpathmapSDK.xcassets","EpathmapSDKImage/*.png",
   s.vendored_frameworks = "EpathmapSDK/EpathmapSDK.framework"
-  # s.frameworks = 'UIKit', 'MapKit'
   s.frameworks = "UIKit", "Foundation", "QuartzCore", "SystemConfiguration", "CoreGraphics", "CoreLocation", "CoreTelephony", "AudioToolbox", "AVFoundation", "AddressBook"
   s.weak_framework = "Contacts"
   # s.library   = "iconv"
   s.libraries = "z", "z.1.2.5", "xml2"
 
-  #s.dependency 'AFNetworking', '~> 2.3'
-#  s.dependency "Bugly", "~> 2.4.7"
-#  s.dependency "Mixpanel", "~> 3.1.3"
-#  s.dependency "Parse", "~> 1.14.4"
-#  s.dependency "SDWebImage", "~> 3.8.2"
-#  s.dependency "SVProgressHUD", "~> 2.1.2"
+
 end

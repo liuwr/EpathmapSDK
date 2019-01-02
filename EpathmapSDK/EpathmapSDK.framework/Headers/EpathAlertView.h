@@ -18,4 +18,6 @@ typedef void(^EpathAlertViewCompletion)(NSUInteger selectedOtherButtonIndex);
          otherButtonTitles:(NSArray *)otherButtonTitles
                 completion:(EpathAlertViewCompletion)completion NS_EXTENSION_UNAVAILABLE_IOS("");
 
++ (void)showNetworkNotReachable;
+
 @end

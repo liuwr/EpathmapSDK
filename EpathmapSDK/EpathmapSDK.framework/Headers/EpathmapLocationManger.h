@@ -6,13 +6,14 @@
 //  Copyright © 2017年 Epathmap. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "EpathLocationInfo.h"
+@class EpathmapLocationManger;
+@class EpathLocationInfo;
+@protocol EpathmapLocationDelegate <NSObject>
 
-@protocol EpathmapLocationDelegate;
+- (void)EpathmapLocationManager:(EpathmapLocationManger *_Nullable)manager didUpdateLocation:(EpathLocationInfo *_Nullable)location;
 
-typedef void(^EpathMapViewSignBlock)(CGFloat distance,BOOL isSign);
+@end
 
 @interface EpathmapLocationManger : NSObject
 
@@ -20,19 +21,9 @@ typedef void(^EpathMapViewSignBlock)(CGFloat distance,BOOL isSign);
 
 @property (nonatomic, assign)NSUInteger locationTimeOut;
 
-@property (nonatomic, copy) EpathMapViewSignBlock _Nullable signBlock;
-
-- (void)signWithMapId:(nonnull NSString *)mapId targetId:(nonnull NSString *)targetId signDistance:(CGFloat)distance resultBlock:(EpathMapViewSignBlock _Nullable )signBlock;
-
-+(EpathmapLocationManger *_Nullable)shareInstance;
 
 - (void)startLocationEngine:(nonnull NSString *)mapId;
 
 - (void)stopLocatingEngine;
-
-@end
-@protocol EpathmapLocationDelegate <NSObject>
-
-- (void)ipsmapLocationManager:(EpathmapLocationManger *_Nullable)manager didUpdateLocation:(EpathLocationInfo *_Nullable)location;
 
 @end

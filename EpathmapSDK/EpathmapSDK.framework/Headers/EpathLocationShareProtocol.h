@@ -15,7 +15,9 @@
 @protocol EpathLocationShareProtocol <NSObject>
 @required
 
-- (void)IpsLocationShare:(IpsShareType)type title:(NSString *)title desc:(NSString *)desc url:(NSString *)url thumbImage:(UIImage *)image;
+- (void)EpathLocationShare:(EpathShareType)type title:(NSString *)title desc:(NSString *)desc url:(NSString *)url thumbImage:(UIImage *)image;
+
+
 
 @end
 
