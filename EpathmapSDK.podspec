@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EpathmapSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '释途室内地图导航SDK'
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liuwr/EpathmapSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'epathmap/**/*'
 
   s.resources = "EpathmapSDK.xcassets","EpathmapSDKImage/*.png",
